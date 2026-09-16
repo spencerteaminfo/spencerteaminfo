@@ -1,45 +1,27 @@
 # Spencer
 
-A web application designed for university students to track shared living costs, manage individual recurring budgets, and settle balances across flatmates or study groups.
-
-Built as a team project for collaborative expense tracking.
+Spencer is an expense management platform built for university students to manage shared living costs, track personal budgets, and settle balances within flatshares or study groups. 
 
 ---
 
-## Tech Stack
+## User Accounts
 
-* **Backend:** PHP 8.2+, Laravel 11
-* **Frontend:** TypeScript, Blade / Vite
-* **Styling:** Bootstrap 5, Custom SCSS
-* **Database:** MySQL / PostgreSQL
-* **Tools:** Composer, npm, Docker (optional)
+All platform features are tied to an individual Spencer account. An active account allows members to join expense groups, log personal or shared spending, and view automated settlement calculations.
 
----
+### Account Capabilities
 
-## Key Features
-
-* **Expense Splitting:** Split bills equally, by custom percentage, or by exact shares.
-* **Debt Simplification:** Visual breakdown of who owes whom to minimize total transactions.
-* **Recurring Budgets:** Track subscriptions, rent, and monthly allowance caps.
-* **Export & Reports:** Generate summary reports (CSV/PDF) for monthly expense overviews.
+* **Profile Management:** Maintain basic user credentials, contact details, and display preferences.
+* **Authentication & Security:** Secure email-and-password login paired with token-based email password recovery.
+* **Group Association:** Link your account to one or more flatshares, projects, or study circles using invite links or group identifiers.
+* **Balance Tracking:** View real-time individual balances, outstanding debts, and pending reimbursements across all joined groups.
+* **Activity & Notifications:** Receive system updates and email notifications whenever payments are logged, updated, or marked as resolved.
 
 ---
 
-## Prerequisites
+## Getting an Account
 
-Ensure you have the following installed locally:
+Accounts are provisioned directly through the web interface. To begin:
 
-* PHP >= 8.2 with extensions: `pdo_mysql`, `mbstring`, `openssl`, `tokenizer`, `xml`, `ctype`, `json`, `curl`
-* Composer 2.x
-* Node.js >= 18.x and npm
-* MySQL / MariaDB
-
----
-
-## Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone [https://github.com/your-org/spencer.git](https://github.com/your-org/spencer.git)
-cd spencer
+1. Navigate to the registration page.
+2. Provide your name, academic or personal email address, and a secure password.
+3. Confirm your registration to access the dashboard, create groups, or accept invitations from existing members.
